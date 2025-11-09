@@ -1,4 +1,3 @@
-<img width="829" height="537" alt="image" src="https://github.com/user-attachments/assets/c3cf0c92-0dd7-494c-998f-d299f90c6191" />
 # OWASP Top 10 - 2021
 
 
