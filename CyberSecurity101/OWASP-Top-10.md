@@ -36,3 +36,24 @@ Question
 - How many non-root/non-service/non-daemon users are there? ```0```
 <img width="829" height="537" alt="image" src="https://github.com/user-attachments/assets/d9203f02-d4a7-4675-98e5-1462bc8efa65" />
 
+- What user is this app running as? ```apache```
+
+- What is the user's shell set as? ```/sbin/nologin```
+<img width="664" height="456" alt="image" src="https://github.com/user-attachments/assets/9212eaed-5972-4bc8-b602-36cde1c97def" />
+
+- What version of Alpine Linux is running? ```3.16.0```
+<img width="627" height="522" alt="image" src="https://github.com/user-attachments/assets/1e2211e4-e905-4c1c-b082-7e6da1469cd9" />
+
+## Insecure Design
+Question: Try to reset joseph's password. Keep in mind the method used by the site to validate if you are indeed joseph.
+
+When we visit the reset password questions, there are 3 questions available, and we'll realize that the question about color can be bruteforced. Try some colors to reset password, then login with the password reset, flag will be placed in the flag.txt.
+
+<img width="1008" height="318" alt="image" src="https://github.com/user-attachments/assets/38b2d76d-4537-4055-b68e-809ab73c2b67" />
+
+
+
+
+
+
+
