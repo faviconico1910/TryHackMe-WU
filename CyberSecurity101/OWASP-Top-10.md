@@ -51,6 +51,14 @@ When we visit the reset password questions, there are 3 questions available, and
 <img width="1008" height="318" alt="image" src="https://github.com/user-attachments/assets/38b2d76d-4537-4055-b68e-809ab73c2b67" />
 
 
+## Security Misconfigurations
+
+Task 12:
+Question:
+- What is the database file name (the one with the .db extension) in the current directory? ```todo.db```
+- What is the value of the secret_flag variable in the source code? ```THM{Just_a_tiny_misconfiguration}```
+
+<img width="705" height="414" alt="image" src="https://github.com/user-attachments/assets/80379abe-27a4-42a8-874b-841fc6d99172" />
 
 
 
