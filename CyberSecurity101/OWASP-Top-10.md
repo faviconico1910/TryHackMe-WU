@@ -1,4 +1,4 @@
-
+<img width="829" height="537" alt="image" src="https://github.com/user-attachments/assets/c3cf0c92-0dd7-494c-998f-d299f90c6191" />
 # OWASP Top 10 - 2021
 
 
@@ -28,3 +28,11 @@ A cryptographic failure refers to any vulnerability arising from the misuse (or 
 Then, login as admin and get the flag.
 
 ***FLAG***: ```THM{Yzc2YjdkMjE5N2VjMzNhOTE3NjdiMjdl}```
+
+## Injection
+### Task 10: 
+Question
+- What strange text file is in the website's root directory? ```drpepper.txt```
+- How many non-root/non-service/non-daemon users are there? ```0```
+<img width="829" height="537" alt="image" src="https://github.com/user-attachments/assets/d9203f02-d4a7-4675-98e5-1462bc8efa65" />
+
