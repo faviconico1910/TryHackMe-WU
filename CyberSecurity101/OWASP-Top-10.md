@@ -1,7 +1,5 @@
 # OWASP Top 10 - 2021
 
-
-
 ## Broken Access Control (IDOR Challenge)
 Broken access control allows attackers to bypass authorisation, allowing them to view sensitive data or perform tasks they aren't supposed to
 
@@ -53,12 +51,22 @@ When we visit the reset password questions, there are 3 questions available, and
 
 ## Security Misconfigurations
 
-Task 12:
+### Task 12:
 Question:
 - What is the database file name (the one with the .db extension) in the current directory? ```todo.db```
 - What is the value of the secret_flag variable in the source code? ```THM{Just_a_tiny_misconfiguration}```
 
 <img width="705" height="414" alt="image" src="https://github.com/user-attachments/assets/80379abe-27a4-42a8-874b-841fc6d99172" />
+
+## Vulnerable and Oudated Components
+
+### Task 15: 
+This vulnerability is ```Unrestricted File Upload``` which let the attacker upload the webshell, leading to RCE.
+
+- ```What is the content of the /opt/flag.txt file?  ```THM{But_1ts_n0t_my_f4ult!}```
+  
+
+
 
 
 
