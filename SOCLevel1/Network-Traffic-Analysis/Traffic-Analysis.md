@@ -1,4 +1,4 @@
-<img width="1919" height="743" alt="image" src="https://github.com/user-attachments/assets/73e813c1-0d7a-49f9-9e85-c660a8a79cc7" />
+<img width="1073" height="759" alt="image" src="https://github.com/user-attachments/assets/ea372154-d5b7-488b-b1ce-f6906a7386d3" /><img width="1919" height="743" alt="image" src="https://github.com/user-attachments/assets/73e813c1-0d7a-49f9-9e85-c660a8a79cc7" />
 # Task 2: Nmap Scans
 
 ### TCP Connect Scans
@@ -62,3 +62,53 @@ CLosed port: ```icmp.type==3 and icmp.code==3```
 
 - What is the comment provided by the "Client354"? ```Nice work!```
 <img width="1920" height="180" alt="image" src="https://github.com/user-attachments/assets/f5850a20-2821-463f-b472-79be66ea6b2d" />
+
+
+
+# Task 4: Identifying Hosts: DHCP, NetBIOS and Kerberos
+
+## DHCP Analysis
+
+<img width="1157" height="733" alt="image" src="https://github.com/user-attachments/assets/c88d9215-e682-47b4-ba37-b5c5bb21f556" />
+
+
+## NetBIOS (NBNS) Analysis
+
+<img width="1175" height="386" alt="image" src="https://github.com/user-attachments/assets/2066fe64-eddf-4885-85ad-02fa242d1e57" />
+
+
+## Kerberos Analysis
+
+<img width="1166" height="597" alt="image" src="https://github.com/user-attachments/assets/dba0a1d1-058a-4876-a038-afc9eec946d9" />
+
+## Questions:
+- What is the MAC address of the host "Galaxy A30"? ```9a:81:41:cb:96:6c```
+<img width="1534" height="689" alt="image" src="https://github.com/user-attachments/assets/8a760cf3-b496-4e73-b9f1-3c85cb78181d" />
+
+- How many NetBIOS registration requests does the "LIVALJM" workstation have? ```16```
+
+<img width="1919" height="791" alt="image" src="https://github.com/user-attachments/assets/5eeb9b6d-da0f-4d0b-b48c-cd9770ebb18d" />
+
+- Which host requested the IP address "172.16.13.85"? ```Galaxy-A12```
+<img width="1079" height="710" alt="image" src="https://github.com/user-attachments/assets/1074e666-f45f-4d55-afad-7415bf05d287" />
+
+
+- What is the IP address of the user "u5"? (Enter the address in defanged format.) ```10[.]1[.]12[.]2```
+
+- What is the hostname of the available host in the Kerberos packets? ```xp1$```
+
+<img width="1073" height="759" alt="image" src="https://github.com/user-attachments/assets/34fa8d5b-6dfe-4c5a-a735-f5f31ff9fcc5" />
+
+# Task 5: Tunneling Traffic: DNS and ICMP
+
+## Tunnelling Traffic: ICMP and DNS
+
+Traffic tunnelling is (also known as "port forwarding" transferring the data/resources in a secure method to network segments and zones. It can be used for "internet to private networks" and "private networks to internet" flow/direction. There is an encapsulation process to hide the data, so the transferred data appear natural for the case, but it contains private data packets and transfers them to the final destination securely.
+
+## ICMP Analysis
+
+<img width="868" height="382" alt="image" src="https://github.com/user-attachments/assets/049c4261-786c-4b30-a4c8-fd2993372387" />
+
+## DNS Analysis
+
+<img width="900" height="519" alt="image" src="https://github.com/user-attachments/assets/70c5b073-603b-4eab-8e67-ea853d0e42c3" />
