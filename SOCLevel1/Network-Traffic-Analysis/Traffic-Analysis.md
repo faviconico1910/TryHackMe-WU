@@ -1,4 +1,4 @@
-<img width="1073" height="759" alt="image" src="https://github.com/user-attachments/assets/ea372154-d5b7-488b-b1ce-f6906a7386d3" /><img width="1919" height="743" alt="image" src="https://github.com/user-attachments/assets/73e813c1-0d7a-49f9-9e85-c660a8a79cc7" />
+
 # Task 2: Nmap Scans
 
 ### TCP Connect Scans
@@ -34,7 +34,7 @@ CLosed port: ```icmp.type==3 and icmp.code==3```
 
 - Which UDP port in the 55-70 port range is open? ```68```
 
-# ARP Poisoning & Man In The Middle!
+# Task 3: ARP Poisoning & Man In The Middle!
 
 <img width="1527" height="502" alt="image" src="https://github.com/user-attachments/assets/fafa8d8c-06f5-4b38-aea9-66108b4522c1" />
 
@@ -67,21 +67,21 @@ CLosed port: ```icmp.type==3 and icmp.code==3```
 
 # Task 4: Identifying Hosts: DHCP, NetBIOS and Kerberos
 
-## DHCP Analysis
+### DHCP Analysis
 
 <img width="1157" height="733" alt="image" src="https://github.com/user-attachments/assets/c88d9215-e682-47b4-ba37-b5c5bb21f556" />
 
 
-## NetBIOS (NBNS) Analysis
+### NetBIOS (NBNS) Analysis
 
 <img width="1175" height="386" alt="image" src="https://github.com/user-attachments/assets/2066fe64-eddf-4885-85ad-02fa242d1e57" />
 
 
-## Kerberos Analysis
+### Kerberos Analysis
 
 <img width="1166" height="597" alt="image" src="https://github.com/user-attachments/assets/dba0a1d1-058a-4876-a038-afc9eec946d9" />
 
-## Questions:
+### Questions:
 - What is the MAC address of the host "Galaxy A30"? ```9a:81:41:cb:96:6c```
 <img width="1534" height="689" alt="image" src="https://github.com/user-attachments/assets/8a760cf3-b496-4e73-b9f1-3c85cb78181d" />
 
@@ -101,14 +101,36 @@ CLosed port: ```icmp.type==3 and icmp.code==3```
 
 # Task 5: Tunneling Traffic: DNS and ICMP
 
-## Tunnelling Traffic: ICMP and DNS
+### Tunnelling Traffic: ICMP and DNS
 
 Traffic tunnelling is (also known as "port forwarding" transferring the data/resources in a secure method to network segments and zones. It can be used for "internet to private networks" and "private networks to internet" flow/direction. There is an encapsulation process to hide the data, so the transferred data appear natural for the case, but it contains private data packets and transfers them to the final destination securely.
 
-## ICMP Analysis
+### ICMP Analysis
 
 <img width="868" height="382" alt="image" src="https://github.com/user-attachments/assets/049c4261-786c-4b30-a4c8-fd2993372387" />
 
-## DNS Analysis
+### DNS Analysis
 
 <img width="900" height="519" alt="image" src="https://github.com/user-attachments/assets/70c5b073-603b-4eab-8e67-ea853d0e42c3" />
+
+# Task 6: Cleartext Protocol Analysis: FTP
+
+### FTP Analysis
+
+<img width="1023" height="824" alt="image" src="https://github.com/user-attachments/assets/f89a052c-c4df-4250-8914-c6e6a0a4db5c" />
+
+### Questions
+- How many incorrect login attempts are there? ```737```
+<img width="1920" height="797" alt="image" src="https://github.com/user-attachments/assets/d9c76364-d405-4993-a3c3-a112d69ccce7" />
+
+
+- What is the size of the file accessed by the "ftp" account? ```39424```
+<img width="1910" height="433" alt="image" src="https://github.com/user-attachments/assets/41340f5f-6402-4fc3-9018-4a3160968be3" />
+
+- The adversary uploaded a document to the FTP server. What is the filename? ```resume.doc```
+<img width="1920" height="680" alt="image" src="https://github.com/user-attachments/assets/6844d6ad-ecd4-43c9-8da3-b0323588e979" />
+
+- The adversary tried to assign special flags to change the executing permissions of the uploaded file. What is the command used by the adversary? ```CHMOD 777```
+<img width="1913" height="608" alt="image" src="https://github.com/user-attachments/assets/7bb2c054-6ae6-4ba6-9acf-6b79ca43c20b" />
+
+# Task 7: Cleartext Protocol Analysis: HTTP
