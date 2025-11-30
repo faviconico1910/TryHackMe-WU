@@ -1,4 +1,3 @@
-
 # Task 2: Nmap Scans
 
 ### TCP Connect Scans
@@ -134,3 +133,25 @@ Traffic tunnelling is (also known as "port forwarding" transferring the data/res
 <img width="1913" height="608" alt="image" src="https://github.com/user-attachments/assets/7bb2c054-6ae6-4ba6-9acf-6b79ca43c20b" />
 
 # Task 7: Cleartext Protocol Analysis: HTTP
+
+### Log4j Analysis
+<img width="1188" height="308" alt="image" src="https://github.com/user-attachments/assets/d42f41fc-623d-491f-9bae-5cb39003cee2" />
+
+# Task 8: Cleartext Protocol Analysis: HTTPs
+
+<img width="992" height="316" alt="image" src="https://github.com/user-attachments/assets/41a48834-308d-4770-9341-5d94cc11917f" />
+
+### Questions
+
+- What is the frame number of the "Client Hello" message sent to "accounts.google.com"? ```16```
+<img width="1201" height="785" alt="image" src="https://github.com/user-attachments/assets/d6df380e-0e8b-42e9-9757-79903a76beeb" />
+
+- Decrypt the traffic with the "KeysLogFile.txt" file. What is the number of HTTP2 packets? ```115```
+- Go to Frame 322. What is the authority header of the HTTP2 packet? (Enter the address in defanged format.) ```safebrowsing[.]googleapis[.]com```
+
+<img width="685" height="378" alt="image" src="https://github.com/user-attachments/assets/c8b9e3c9-3d21-4bf7-800d-62f0bbac0a72" />
+
+- Flag: ```FLAG{THM-PACKETMASTER}```
+
+
+
