@@ -1,4 +1,4 @@
-<img width="524" height="151" alt="image" src="https://github.com/user-attachments/assets/79df0e36-cf3a-41a6-94a0-8c26b57f5678" /><img width="712" height="191" alt="image" src="https://github.com/user-attachments/assets/f28aaad2-4c09-4138-bca7-3f3fa3c35b9b" /># Initial Access via RDP
+# Initial Access via RDP
 
 <img width="1450" height="639" alt="image" src="https://github.com/user-attachments/assets/f4ef0772-9132-4a83-9379-a06d56685541" />
 
