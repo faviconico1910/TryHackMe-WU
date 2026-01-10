@@ -23,3 +23,13 @@
 
 
 
+## Questions:
+- Looking at Sysmon logs, what directory does the stealer create?
+<img width="723" height="260" alt="image" src="https://github.com/user-attachments/assets/d61a453f-9225-4bbc-b09f-3a162be0b2a5" />
+
+- Which three file extensions does the malware search for?
+<img width="1043" height="703" alt="image" src="https://github.com/user-attachments/assets/e39a818a-241e-4869-933b-03d777be7aeb" />
+
+- Which PowerShell cmdlet does the malware use to get clipboard content? ```Get-ClipBoard```
+- Which domain does the malware exfiltrate the data to?
+<img width="765" height="202" alt="image" src="https://github.com/user-attachments/assets/2c67dcf4-e3b9-4fdb-96e4-2fa07bad1b22" />
