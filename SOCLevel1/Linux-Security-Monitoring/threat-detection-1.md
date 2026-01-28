@@ -16,3 +16,17 @@
 - Finally, which IP managed to breach the root user? ```91.224.92.79```
 
 <img width="1446" height="111" alt="image" src="https://github.com/user-attachments/assets/5de519b2-e21b-424f-a194-9da11ef7a745" />
+
+
+# Detecting Service Breach
+
+- We should use process tree analysis, build a process tree and trace the command back to its parent process.
+
+<img width="1543" height="391" alt="image" src="https://github.com/user-attachments/assets/bed628f9-8d2f-4931-9625-2c513b31143d" />
+
+## Questions
+- What is the PPID of the suspicious whoami command? ``1018``
+- Moving up the tree, what is the PID of the TryPingMe app?
+<img width="1889" height="244" alt="image" src="https://github.com/user-attachments/assets/1a6859f6-8982-4e01-a1a0-0a368fad782e" />
+- Which program did the attacker use to open a reverse shell? ``python``
+
