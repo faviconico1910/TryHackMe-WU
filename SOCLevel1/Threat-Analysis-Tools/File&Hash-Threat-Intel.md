@@ -30,3 +30,15 @@ Masquerading - Filenames such as backup-2300.exe can blend with routine files, t
 
 - On VirusTotal, what MITRE technique has been flagged for persistence and privilege escalation for the Morse-Code-Analyzer file?
 <img width="746" height="323" alt="image" src="https://github.com/user-attachments/assets/e3cc7157-63fe-467b-b769-bcd868545bce" />
+
+
+# Sandbox Analysis
+
+## Questions:
+- What tags are used to identify the bl0gger.exe malicious file on Hybrid Analysis?
+ ```BlackMoon, Discovery, windows-server-utility```
+- What was the stealth command line executed from the file? ```regsvr32 %WINDIR%\Media\ActiveX.ocx /s```
+<img width="1541" height="308" alt="image" src="https://github.com/user-attachments/assets/ece183eb-7f46-4d65-bd98-ee7dfe841eb1" />
+- Which other process was spawned according to the process tree?
+<img width="1547" height="200" alt="image" src="https://github.com/user-attachments/assets/f723d2a8-5085-41b5-8185-54616ef0a6cd" />
+
